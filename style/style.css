@@ -68,9 +68,9 @@ input[type=number] {
 
     }
 p, span {
-    font-size: 3.25rem;
+    font-size: 2.7rem;
     font-weight: 800;
-    margin-bottom: -1rem;
+    margin-bottom: 0rem;
 }
 span {
     color: var(--Purple);
@@ -84,9 +84,9 @@ img {
     width: 1.6rem;
     height: 1.6rem;
     border-radius: 50%;
-    top:1.1rem;
-    left: 1.21rem;
-    padding: 1rem;
+    top:8.82rem;
+    left: 8.2rem;
+    padding: 0.8rem;
 }
 .hide {
     display: none;
