@@ -116,3 +116,77 @@ img {
     border-top-right-radius: 2rem;
     position: relative;
   }
+
+
+  /* // DESKTOP RESOLUTION */
+  @media screen and (min-width: 1440px) {
+    body {
+        background-color:var(--Lightred);
+    }
+    input {
+        font-weight: 800;
+        font-size: 18px;
+        padding-left: 0.8rem;
+        width: 5.4rem;
+        height: 2.6rem;   
+        border : 1px solid rgb(227, 222, 222);
+        margin-right: 1.3rem;
+        border-radius: 0.4rem;
+    }
+    hr {
+        width: 95%;
+        margin-top: 1.8rem;
+        margin-bottom: 1.2rem;
+        border: 1px solid rgb(238, 232, 232);
+    }
+ 
+    #circle-arrow {
+        /* padding: 1rem; */
+        width: 4rem;
+        height: 4rem;
+        background-color: var(--Purple);
+        left: 28rem;
+        top: 5.8rem;
+        position: absolute;
+        border-radius: 50%;
+    
+    }
+    p, span {
+        font-size: 4rem;
+        font-weight: 800;
+        margin-bottom: -1rem;
+    }
+    span {
+        color: var(--Purple);
+    }
+    p {
+        margin-left: 0.6rem;
+    }
+    img {   
+        position: absolute;
+        background-color:var(--Purple);
+        width: 1.9rem;
+        height: 1.9rem;
+        border-radius: 50%;
+        top:0.95rem;
+        left: 1.03rem;
+    }
+      .attribution a {
+        color: white;
+      }
+      .attribution a:hover {
+        color: var(--Purple);
+      }
+      #card-itself {
+        background-color: white;
+        width: 30.2rem;
+        height: 25.5rem;
+        margin: 6rem auto;
+        padding: 0.6rem 2.2rem;
+        border-bottom-right-radius: 8rem;
+        border-bottom-left-radius: 1.2rem;
+        border-top-left-radius: 1.2rem;
+        border-top-right-radius: 1.2rem;
+        position: relative;
+      }
+  }
