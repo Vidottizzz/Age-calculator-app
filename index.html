@@ -1,37 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="style/style.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,700;1,800&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Age calculator app</title>
+    <title>Frontend Mentor | Age calculator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div id="card-itself">
+      <header>
+        <form action="" class="flex">
+          <div>
+            <label for="day">DAY</label><br>
+            <input type="number" id="day" name="dayInput"><br>
+          </div>
+          <div>
+            <label for="month">MONTH</label><br>
+            <input type="number" id="month" name="monthInput">
+          </div>
+          <div>
+            <label for="year">YEAR</label><br>
+            <input type="number" id="year" name="yearInput">
+          </div>
+        </form>
+      </header>
+      
+      <main>
+      <hr>
+      <img src="assets/images/icon-arrow.svg" alt="">
+      <div class="flex">
+        <span>38</span> <p>years</p>
+      </div>
+      <div class="flex">
+        <span>3</span> <p>months</p>
+      </div>
+      <div class="flex">
+        <span>26</span> <p>days</p>
+      </div>
+      </main>
+      
+      <footer>
+      
+      </footer>
 
-  Day
-  DD
+    </div>
 
-  Month
-  MM
-
-  Year
-  YYYY
-
-  -- years
-  -- months
-  -- days
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script src="script/script.js" type="text/javascript"></script>
+  </body>
 </html>

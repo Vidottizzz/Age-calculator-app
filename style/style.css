@@ -1,0 +1,87 @@
+:root {
+    /* ### Primary */
+
+--Purple: hsl(259, 100%, 65%);
+--Lightred: hsl(0, 100%, 67%);
+
+/* ### Neutral */
+
+--White: hsl(0, 0%, 100%);
+--Offwhite: hsl(0, 0%, 94%);
+--Lightgrey: hsl(0, 0%, 86%);
+--Smokeygrey: hsl(0, 1%, 44%);
+--Offblack: hsl(0, 0%, 8%);
+
+}
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    font-family: 'Poppins', sans-serif;
+
+    }
+body {
+    background-color: aquamarine;
+}
+input {
+    font-size: 32px;
+    width: 4.5rem;
+    height: 2.6rem;   
+    border : 1px solid green;
+    margin-right: 1rem;
+    border-radius: 0.4rem;
+
+}
+form {
+    margin-top: 1rem;
+}
+hr {
+    margin-top: 3.6rem;
+    margin-bottom: 1.8rem;
+    border: 1px solid rgb(238, 232, 232);
+}
+p, span {
+    font-size: 3.25rem;
+    font-weight: 800;
+    margin-bottom: -1rem;
+}
+span {
+    color: var(--Purple);
+}
+p {
+    margin-left: 0.6rem;
+}
+img {
+    left: 8.35rem;
+    top: 9.2rem;
+    position: absolute;
+    background-color:var(--Purple);
+    color: red;
+    width: 2.8rem;
+    height: 2.8rem;
+    border-radius: 50%;
+}
+.flex {
+    display: flex;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  #card-itself {
+    background-color: white;
+    width: 16rem;
+    height: 24rem;
+    margin: 6rem auto;
+    padding: 1.6rem;
+    border-bottom-right-radius: 6rem;
+    border-bottom-left-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    position: relative;
+  }
