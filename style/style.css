@@ -92,6 +92,12 @@ p {
     left: 4rem;
     padding: 0.8rem;
 }
+.border-red {
+    border: 1px solid var(--Lightred);
+}
+.color-red {
+    color:var(--Lightred);
+}
 .hide {
     display: none;
 }
@@ -239,12 +245,7 @@ p {
         left: 27.8rem;
     }
   
-    .border-red {
-        border: 1px solid var(--Lightred);
-    }
-    .color-red {
-        color:var(--Lightred);
-    }
+
     .err-msg1 {
         font-size: 0.55rem;
         position: absolute;
