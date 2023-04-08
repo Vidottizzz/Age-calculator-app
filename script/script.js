@@ -19,6 +19,7 @@ const dateString =
   currentYear + "-" + (currentMonth + 1) + "-" + currentDayOfMonth;
 console.log(dateString);
 
+
 function calculateDate() {
     // valores dos inputs
     let day = document.forms["Form"]["dayInput"].value;
@@ -34,6 +35,9 @@ function calculateDate() {
     const diffInDays = diffInMs / (1000 * 60 * 60 * 24);
     const diffInMonth = diffInDays / 30;
     
+    console.log(diffInMs);
+
+
 
   if (day != "" && month != "" && year != "") {
     let yearCalculated = currentYear - year;
