@@ -73,7 +73,7 @@ function calculateDate() {
 
     if (day != "" && month != "" && year != "") {
     let yearCalculated = currentYear - year;
-    yearDiv.innerHTML = yearCalculated;
+    yearDiv.innerHTML = yearCalculated - 1;
 // calculando q quantidade de meses
     // monthDiv.innerHTML = diffInMonth.toFixed(0).slice(0, -2);
     monthDiv.innerHTML = diffInMonth.toFixed(0) ;
