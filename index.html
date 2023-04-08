@@ -23,17 +23,17 @@
           <div>
             <label id="label-red" for="day">DAY</label><br>
             <input type="number" id="day" name="dayInput" placeholder="DD">
-            <p class="err-msg1 hide">Can't be blank / invalid</p><br>
+            <p class="err-msg1 hide">Can't be blank</p><br>
           </div>
           <div>
             <label id="label-red2" for="month">MONTH</label><br>
             <input type="number" id="month" name="monthInput" placeholder="MM">
-            <p class="err-msg2 hide">Can't be blank / invalid</p>
+            <p class="err-msg2 hide">Can't be blank</p>
           </div>
           <div>
             <label id="label-red3" for="year">YEAR</label><br>
             <input type="number" id="year" name="yearInput" placeholder="YYYY">
-            <p class="err-msg3 hide">Can't be blank / must be in past</p>
+            <p class="err-msg3 hide">Can't be blank<br>Must be in past</p>
            
           </div>
         </form>
@@ -42,9 +42,11 @@
       <main>
       <hr>
       <div >
+        <span id="span-title1">consecutive time</span>
         <img onclick="validate()" id="send" src="assets/images/icon-arrow.svg" alt="">
       </div>
       <div >
+        <span id="span-title2">time passed</span>
         <img onclick="validate1()" id="send1" src="assets/images/icon-arrow.svg" alt="">
       </div>
       <div class="flex">

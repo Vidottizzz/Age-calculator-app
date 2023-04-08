@@ -46,7 +46,7 @@ form {
 }
 hr {
     margin-top: 3.6rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 3.35rem;
     border: 1px solid rgb(238, 232, 232);
 }
 /* Chrome, Safari, Edge, Opera */
@@ -121,27 +121,41 @@ p {
     position: relative;
   }
 
-.err-msg1, .err-msg11 {
+.err-msg1{
     font-size: 0.55rem;
     position: absolute;
-    left: 1.8rem;
-    top:6rem;
+    left: 1.2rem;
+    top:7rem;
     color:var(--Lightred);
     
 }
-.err-msg2, .err-msg22 {
+.err-msg2 {
     font-size: 0.55rem;
     position: absolute;
-    left: 9.4rem;
-    top:6rem;
+    left: 6.9rem;
+    top:7rem;
     color:var(--Lightred);
 }
-.err-msg3, .err-msg33 {
+.err-msg3{
     font-size: 0.55rem;
     position: absolute;
-    left: 17rem;
-    top:6rem;
+    left: 12.6rem;
+    top:7rem;
     color:var(--Lightred);
+}
+#span-title1 {
+    position: absolute;
+    font-size: 0.7rem;
+    top:12rem;
+    left: 2.7rem;
+    
+}
+#span-title2 {
+    position: absolute;
+    font-size: 0.7rem;
+    top:12rem;
+    left: 11.5rem;
+
 }
 #send:hover, #send1:hover {
     cursor: pointer;
@@ -151,6 +165,19 @@ p {
 
   /* // DESKTOP RESOLUTION */
   @media screen and (min-width: 1440px) {
+    #span-title1 {
+        position: absolute;
+        font-size: 0.7rem;
+        top:4.5rem;
+        left: 26.6rem;
+    }
+    #span-title2 {
+        position: absolute;
+        font-size: 0.7rem;
+        top:9.3rem;
+        left: 27.4rem;
+    
+    }
     body {
         background-color:var(--Lightred);
     }
@@ -261,4 +288,5 @@ p {
         border-top-right-radius: 1.2rem;
         position: relative;
       }
+  
   }
